@@ -1,0 +1,39 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Тесты и качество кода
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Локальные логи
+*.log
